@@ -13,16 +13,26 @@ foreignkey_cascade_options = {"onupdate": "CASCADE", "ondelete": "CASCADE"}
 
 # This is a dict used for fuzzy matching
 full_roles_dict = {
-    "top": "TOP",
-    "jgl": "JGL",
-    "jungle": "JGL",
-    "jungler": "JGL",
-    "mid": "MID",
-    "bot": "BOT",
-    "adc": "BOT",
-    "sup": "SUP",
-    "supp": "SUP",
-    "support": "SUP",
+    "top X": "TOP X",
+    "jgl X": "JGL X",
+    "jungle X": "JGL X",
+    "jungler X": "JGL X",
+    "mid X": "MID X",
+    "bot X": "BOT X",
+    "adc X": "BOT X",
+    "sup X": "SUP X",
+    "supp X": "SUP X",
+    "support X": "SUP X",
+    "top Z": "TOP Z",
+    "jgl Z": "JGL Z",
+    "jungle Z": "JGL Z",
+    "jungler Z": "JGL Z",
+    "mid Z": "MID Z",
+    "bot Z": "BOT Z",
+    "adc Z": "BOT Z",
+    "sup Z": "SUP Z",
+    "supp Z": "SUP Z",
+    "support Z": "SUP Z",
 }
 
 
