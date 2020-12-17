@@ -77,7 +77,7 @@ class GameQueue:
                 for qp in self.queue_players_dict[role]:
 
                     # If we already have 2 players in that role, we continue
-                    if len(starting_queue[role]) >= 2:
+                    if len(starting_queue[role]) >= 1:
                         continue
 
                     # Else we add our current player if he’s not there yet (could have been added by his duo)
