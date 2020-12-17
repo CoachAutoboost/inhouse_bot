@@ -14,11 +14,16 @@ cdragon_root = "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/
 positions_pictures_url = cdragon_root + "/position-selector/positions/icon-position-"
 
 role_thumbnail_dict = {
-    "TOP": positions_pictures_url + "top.png",
-    "JGL": positions_pictures_url + "jungle.png",
-    "MID": positions_pictures_url + "middle.png",
-    "BOT": positions_pictures_url + "bottom.png",
-    "SUP": positions_pictures_url + "utility.png ",
+    "TOP X": positions_pictures_url + "top.png",
+    "JGL X": positions_pictures_url + "jungle.png",
+    "MID X": positions_pictures_url + "middle.png",
+    "BOT X": positions_pictures_url + "bottom.png",
+    "SUP X": positions_pictures_url + "utility.png ",
+    "TOP Z": positions_pictures_url + "top.png",
+    "JGL Z": positions_pictures_url + "jungle.png",
+    "MID Z": positions_pictures_url + "middle.png",
+    "BOT Z": positions_pictures_url + "bottom.png",
+    "SUP Z": positions_pictures_url + "utility.png ",
 }
 
 lol_logo = (
@@ -27,11 +32,16 @@ lol_logo = (
 
 # Emoji dict built from environment variables
 role_emoji_dict = {
-    "TOP": os.environ.get("INHOUSE_BOT_TOP_EMOJI") or "TOP",
-    "JGL": os.environ.get("INHOUSE_BOT_JGL_EMOJI") or "JGL",
-    "MID": os.environ.get("INHOUSE_BOT_MID_EMOJI") or "MID",
-    "BOT": os.environ.get("INHOUSE_BOT_BOT_EMOJI") or "BOT",
-    "SUP": os.environ.get("INHOUSE_BOT_SUP_EMOJI") or "SUP",
+    "TOP X": os.environ.get("INHOUSE_BOT_TOP_EMOJI") or "TOP X",
+    "JGL X": os.environ.get("INHOUSE_BOT_JGL_EMOJI") or "JGL X",
+    "MID X": os.environ.get("INHOUSE_BOT_MID_EMOJI") or "MID X",
+    "BOT X": os.environ.get("INHOUSE_BOT_BOT_EMOJI") or "BOT X",
+    "SUP X": os.environ.get("INHOUSE_BOT_SUP_EMOJI") or "SUP X",
+    "TOP Z": os.environ.get("INHOUSE_BOT_TOP_EMOJI") or "TOP Z",
+    "JGL Z": os.environ.get("INHOUSE_BOT_JGL_EMOJI") or "JGL Z",
+    "MID Z": os.environ.get("INHOUSE_BOT_MID_EMOJI") or "MID Z",
+    "BOT Z": os.environ.get("INHOUSE_BOT_BOT_EMOJI") or "BOT Z",
+    "SUP Z": os.environ.get("INHOUSE_BOT_SUP_EMOJI") or "SUP Z",
 }
 
 # Default rank emoji
