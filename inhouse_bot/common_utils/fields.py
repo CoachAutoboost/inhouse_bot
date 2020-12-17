@@ -4,7 +4,7 @@ from sqlalchemy import Enum
 import rapidfuzz
 import lol_id_tools
 
-roles_list = ["TOP", "JGL", "MID", "BOT", "SUP"]
+roles_list = ["TOP X", "JGL X", "MID X", "BOT X", "SUP X", "TOP Z", "JGL Z", "MID Z", "BOT Z", "SUP Z"]
 role_enum = Enum(*roles_list, name="role_enum")
 
 side_enum = Enum("BLUE", "RED", name="team_enum")
