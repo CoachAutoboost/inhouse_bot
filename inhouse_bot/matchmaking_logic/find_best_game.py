@@ -12,7 +12,7 @@ def find_best_game(queue: GameQueue, game_quality_threshold=0.1) -> Optional[Gam
     # Do not do anything if there’s not at least 2 players in queue per role
 
     for role_queue in queue.queue_players_dict.values():
-        if len(role_queue) < 2:
+        if len(role_queue) < 1:
             return None
 
     # If we get there, we know there are at least 10 players in the queue
